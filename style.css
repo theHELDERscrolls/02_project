@@ -1,0 +1,119 @@
+:root {
+  --bg-dark: #0d1b2a;
+  --font-dark: #e0e1dd;
+  --hover-lightdark: #ff8800;
+  --bg-light: #f4f4f9;
+  --font-light: #1d3557;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: url("public/assets/back.png");
+  background-color: var(--bg-dark);
+  color: var(--font-dark);
+  display: flex;
+  flex-direction: column;
+
+  transition: all 0.5s ease-in-out;
+
+  a {
+    color: var(--font-dark);
+  }
+}
+
+.light {
+  background-color: var(--bg-light);
+  color: var(--font-light);
+
+  a {
+    color: var(--font-light);
+  }
+
+  #themeBtn {
+    color: var(--font-light);
+  }
+
+  #themeBtn:hover {
+    background-color: #d9d9e0;
+  }
+
+  #work_profile > a {
+    color: var(--font-light);
+  }
+
+  #work_profile > a::after,
+  #work_profile > a::before {
+    background-color: var(--bg-light);
+  }
+
+  .social_button {
+    border: 2px solid black;
+
+    img {
+      filter: invert(0);
+    }
+
+    a,
+    a:hover,
+    a:active,
+    a:focus {
+      color: black;
+    }
+  }
+
+  .social_button:hover {
+    background-color: #d9d9e0;
+  }
+
+  figure {
+    border: 2px solid var(--bg-dark);
+    background: rgba(126, 126, 126, 0.1);
+  }
+
+  .project_card-link {
+    background-color: #0009;
+  }
+
+  .project_card-link:hover {
+    background-color: #0008;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--hover-lightdark);
+}
+
+a:focus {
+  color: var(--hover-lightdark);
+}
+
+a:active {
+  color: #ffb25a;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  align-content: center;
+}
+
+main {
+  width: 100%;
+  height: 80vh;
+}

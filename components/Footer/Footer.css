@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  min-height: 10vh;
+  padding: 0rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  align-items: center;
+
+  p {
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+#footer-contact {
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+}
