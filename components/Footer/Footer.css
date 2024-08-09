@@ -1,10 +1,9 @@
 footer {
   width: 100%;
-  min-height: 10vh;
+  min-height: 4rem;
   padding: 0rem 5rem;
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
   align-items: center;
 
   p {
