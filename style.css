@@ -18,8 +18,6 @@ body {
   background-image: url("public/assets/back.png");
   background-color: var(--bg-dark);
   color: var(--font-dark);
-  display: flex;
-  flex-direction: column;
 
   transition: all 0.5s ease-in-out;
 
@@ -115,5 +113,5 @@ header {
 
 main {
   width: 100%;
-  height: auto;
+  min-height: 80vh;
 }

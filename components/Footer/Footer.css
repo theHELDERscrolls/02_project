@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  min-height: 4rem;
+  min-height: 10vh;
   padding: 0rem 5rem;
   display: flex;
   justify-content: space-between;
