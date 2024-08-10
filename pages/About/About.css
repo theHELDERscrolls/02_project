@@ -11,4 +11,5 @@ iframe {
   height: 20rem;
   border: none;
   pointer-events: none;
+  filter: drop-shadow(5px 5px 5px #9995);
 }

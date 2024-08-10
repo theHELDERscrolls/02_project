@@ -1,3 +1,15 @@
+@keyframes navBgDark {
+  100% {
+    background-color: #0009;
+  }
+}
+
+@keyframes navTextDark {
+  100% {
+    color: var(--font-dark);
+  }
+}
+
 :root {
   --bg-dark: #0d1b2a;
   --font-dark: #e0e1dd;
@@ -26,6 +38,38 @@ body {
   }
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--hover-lightdark);
+}
+
+a:focus {
+  color: var(--hover-lightdark);
+}
+
+a:active {
+  color: #ffb25a;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  align-content: center;
+}
+
+main {
+  width: 100%;
+  min-height: 80vh;
+}
+
 .light {
   background-color: var(--bg-light);
   color: var(--font-light);
@@ -34,8 +78,27 @@ body {
     color: var(--font-light);
   }
 
+  nav {
+    ul {
+      animation: navBgDark 1s linear both;
+      animation-timeline: scroll();
+      animation-range: 0px 100px;
+
+      li {
+        a {
+          animation: navTextDark 1s linear both;
+          animation-timeline: scroll();
+          animation-range: 0px 100px;
+        }
+      }
+    }
+  }
+
   #themeBtn {
     color: var(--font-light);
+    animation: navTextDark 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0px 100px;
   }
 
   #themeBtn:hover {
@@ -82,36 +145,8 @@ body {
   .project_card-link:hover {
     background-color: #0008;
   }
-}
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-a:hover {
-  color: var(--hover-lightdark);
-}
-
-a:focus {
-  color: var(--hover-lightdark);
-}
-
-a:active {
-  color: #ffb25a;
-}
-
-header {
-  width: 100%;
-  height: 10vh;
-  align-content: center;
-}
-
-main {
-  width: 100%;
-  min-height: 80vh;
+  iframe {
+    filter: drop-shadow(5px 5px 5px #0009);
+  }
 }
