@@ -9,10 +9,10 @@ export const ProjectCard = (project) => `
       <p class="project_card-desc">${project.description}</p>
       <div class="project_card-link">
         <a href="${project.github}" target="_blank" rel="noopener noreferrer">
-          <img src="./public/assets/Github_light.svg" alt="Github Icon">
+          <img src="/assets/Github_light.svg" alt="Github Icon">
         </a>
         <a href="${project.link}" target="_blank" rel="noopener noreferrer">
-          <img src="./public/assets/web.png" alt="Web Icon">
+          <img src="/assets/web.png" alt="Web Icon">
         </a>
       </div>
 `;
