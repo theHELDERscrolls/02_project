@@ -1,5 +1,5 @@
 .home {
-  padding: 2rem 20rem;
+  padding: 2rem 20%;
   font-size: 1.1rem;
   font-weight: 400;
   display: flex;
@@ -129,4 +129,10 @@
 
 .social_button:active {
   transform: scale(0.9);
+}
+
+@media (max-width: 499px) {
+  .home {
+  padding: 2rem;
+  }
 }

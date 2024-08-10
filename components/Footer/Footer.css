@@ -18,3 +18,15 @@ footer {
   gap: 3rem;
   font-weight: 600;
 }
+
+@media (max-width: 799px) {
+  footer {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+
+    p {
+      text-align: center;
+    }
+  }
+}
