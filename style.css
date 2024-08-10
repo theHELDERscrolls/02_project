@@ -68,6 +68,8 @@ header {
 main {
   width: 100%;
   min-height: 80vh;
+
+  animation: smoothTransition 1s linear both;
 }
 
 .light {
