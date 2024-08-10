@@ -27,7 +27,7 @@
 }
 
 body {
-  background-image: url("public/assets/back.png");
+  background-image: url("/assets/back.png");
   background-color: var(--bg-dark);
   color: var(--font-dark);
 

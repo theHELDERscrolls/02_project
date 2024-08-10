@@ -7,7 +7,7 @@ export const Home = () => {
   main.innerHTML = `
     <section class="home">
       <div id="work_profile">
-        <img src="public/assets/profile_img.jpg" alt="profile">
+        <img src="/assets/profile_img.jpg" alt="profile">
         <a href="https://www.linkedin.com/in/helder-manuel-vieira-ruiz-63a2821b4/" target="_blank"
           rel="noopener noreferrer">¿Trabajamos?</a>
       </div>
@@ -19,11 +19,11 @@ export const Home = () => {
         innovadoras. ¡Gracias por visitar mi portfolio!</p>
       <section id="contact">
         <div class="social_button">
-          <img src="public/assets/mail.png" alt="email">
+          <img src="/assets/mail.png" alt="email">
           <a href="mailto:manuhelderruiz@gmail.com">Email</a>
         </div>
         <div class="social_button">
-          <img src="public/assets/Github_light.svg" alt="github">
+          <img src="/assets/Github_light.svg" alt="github">
           <a href="https://github.com/theHELDERscrolls" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </section>
