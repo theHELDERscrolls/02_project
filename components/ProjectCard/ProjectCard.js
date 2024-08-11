@@ -21,9 +21,9 @@ export const ProjectCard = (project) => `
 //Sustituir el nombre de las tecnologías por las rutas de icono.
 
 const techIcons = {
-  HTML5: "assets/html5.svg",
-  CSS3: "assets/css.svg",
-  JavaScript: "assets/javascript.svg",
+  HTML5: "/assets/html5.svg",
+  CSS3: "/assets/css.svg",
+  JavaScript: "/assets/javascript.svg",
 };
 
 export const basedTech = () => {
