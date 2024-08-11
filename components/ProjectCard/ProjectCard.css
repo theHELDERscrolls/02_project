@@ -71,3 +71,14 @@ figure:hover {
 .project_card-link > a:hover {
   transform: scale(1.1);
 }
+
+.tech {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
