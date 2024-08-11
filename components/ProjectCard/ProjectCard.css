@@ -80,5 +80,6 @@ figure:hover {
   img {
     width: 2rem;
     height: 2rem;
+    filter: drop-shadow(3px 3px 3px #9993);
   }
 }
