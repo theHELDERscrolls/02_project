@@ -178,6 +178,6 @@ main {
   }
 }
 
-section {
+main > section {
   animation: smoothTransition 1s ease-in-out;
 }
