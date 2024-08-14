@@ -157,4 +157,10 @@ main {
       filter: drop-shadow(3px 3px 3px #0009);
     }
   }
+
+  footer {
+    a:hover {
+      color: var(--hover-lightdark);
+    }
+  }
 }
