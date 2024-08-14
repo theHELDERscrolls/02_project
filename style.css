@@ -10,6 +10,15 @@
   }
 }
 
+@keyframes smoothTransition {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 :root {
   --bg-dark: #0d1b2a;
   --font-dark: #e0e1dd;
@@ -163,4 +172,8 @@ main {
       color: var(--hover-lightdark);
     }
   }
+}
+
+section {
+  animation: smoothTransition 1s linear both;
 }
