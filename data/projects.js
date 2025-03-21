@@ -1,4 +1,13 @@
 export const projects = [
+    {
+    title: "Brawl Stats - Fan Made",
+    description: "A web to explore Brawl Stars characters and view their stats across different maps.",
+    image:
+      "/assets/project_skyrimzon.PNG",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/theHELDERscrolls/Brawl_Stats",
+    link: "https://brawl-stats-fan-made.vercel.app/",
+  },
   {
     title: "Skyrimzon",
     description: "Tienda web que simula la venta de objetos del mundo de Skyrim. Ofrece una variedad de artículos icónicos, como armas, armaduras y pociones, recreados para los fans del juego.",
