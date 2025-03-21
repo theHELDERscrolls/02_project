@@ -3,7 +3,7 @@ export const projects = [
     title: "Brawl Stats - Fan Made",
     description: "A web to explore Brawl Stars characters and view their stats across different maps.",
     image:
-      "/assets/project_skyrimzon.PNG",
+      "/assets/project_BS.png",
     tech: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/theHELDERscrolls/Brawl_Stats",
     link: "https://brawl-stats-fan-made.vercel.app/",
